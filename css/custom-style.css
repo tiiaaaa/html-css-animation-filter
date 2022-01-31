@@ -61,6 +61,13 @@ img.ex-9-img:hover{
 }
 
 /* Esercizio 10 */
-img.ex-10-icon{
-    transition: 3s 0.5s;
+.ex-10-icon{
+    animation: loading 5s linear infinite;
+}
+
+@keyframes loading{
+    0% {
+        transform: rotate(7turn);
+    }
+
 }
