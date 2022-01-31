@@ -71,3 +71,21 @@ img.ex-9-img:hover{
     }
 
 }
+
+/* Esercizio 11 */
+.ex-11-icon:hover{
+    animation: reverse-loading 5s linear infinite;
+}
+
+@keyframes reverse-loading {
+    0% {
+        transform: rotate(0);
+    }
+
+    90% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
